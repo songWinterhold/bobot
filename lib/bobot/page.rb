@@ -80,7 +80,7 @@ module Bobot
     end
 
     def sender_action(sender_action:, to: nil, messaging_options: nil)
-      deliver(payload_template: { sender_action: sender_action, messaging_options: messaging_options }, to: to)
+      #deliver(payload_template: { sender_action: sender_action, messaging_options: messaging_options }, to: to)
     end
 
     def show_typing(state:, to: nil, messaging_options: nil)
